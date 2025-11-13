@@ -30,19 +30,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Procesar"
+        android:layout_marginTop="12dp"
         />
 
     <Button
         android:id="@+id/btnIrSegunda"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ir a segunda actividad" />
+        android:text="Ir a segunda actividad"
+        android:layout_marginTop="12dp"/>
 
     <Button
-        android:id="@+id/btnCargar"
+        android:id="@+id/btnCargarPrediccion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Cargar Prediccion"
+        android:layout_marginTop="12dp"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvHoras"
